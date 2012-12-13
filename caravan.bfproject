@@ -54,6 +54,8 @@ files: C:\\Users\\ian\\Development\\roly\\css\\global-forms.css
 files: C:\\Users\\ian\\Development\\roly\\images\\makefile
 snr_replacetype: 0
 recent_files: file:///C:/Users/ian/Development/roly/css/global-forms.css
+recent_files: file:///C:/Users/ian/Development/roly/css/slider_style.css
+recent_files: file:///C:/Users/ian/Development/roly/css/reset.css
 recent_files: file:///C:/Users/ian/Development/roly/css/main.css
 recent_files: file:///C:/Users/ian/Development/roly/gallery.html
 recent_files: file:///C:/Users/ian/Development/roly/images/makefile
@@ -83,7 +85,7 @@ snr_casesens: 0
 c2e.convert_iso: 0
 bookmarks_filename_mode: 0
 wrap_text_default: 0
-opendir: file:///C:/Users/ian/Development/roly/images
+opendir: file:///C:/Users/ian/Development/roly/css
 e2c.convert_xml: 1
 default_mime_type: text/x-html5
 view_left_panel: 1
