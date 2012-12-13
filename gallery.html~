@@ -240,9 +240,11 @@
 									since the left of the slider is no longer correct
 									 */
 									$(window).resize(function(){
-									//This setting of w_w will be wrong if the slideshow is contained within another block.
-									//Need to find a more general function that can ascertain the width of the containing block.
-										w_w	= $(window).width();
+										//This setting of w_w will be wrong if the slideshow is contained within another block.
+										//Need to find a more general function that can ascertain the width of the containing block.
+										//Presently this is set in main.css to a specific size:760px
+										//w_w	= $(window).width();
+										w_w	= 760;
 										setWidths($pxs_slider,$elems,total_elems,$pxs_bg1,$pxs_bg2,$pxs_bg3,one_image_w,$pxs_next,$pxs_prev);
 										slide(current,
 										$pxs_slider,

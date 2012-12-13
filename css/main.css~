@@ -194,6 +194,8 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 	overflow: hidden;
 	padding: 20px;
 	width: 760px;
+	/* If you change the width here be sure to update the javascript in gallery.html otherwise the slideshow will be off-centre.
+	/* At current state of play, searching for "w_w	= $(window).width()" in gallery.html will take you to the quick fix that created this dependency.
 /*	box-shadow:  12px 12px 12px 0px rgba(125, 117, 93, .4);
 */
 	box-shadow:  15px 15px 12px 0px rgba(62, 59, 46, .5);
@@ -207,7 +209,6 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 	border: 2px solid #eee;
 	float: right;
 	margin: 0.786em 2em 0 5em;
-/*	width: 320px;*/
 }
 #featured figure img {display: block; float: right;}
 
