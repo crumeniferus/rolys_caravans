@@ -42,7 +42,7 @@ htmlbar_notebooktab: 2
 last_filefilter: 
 spell_insert_entities: 0
 spell_check_default: 1
-savedir: file:///C:/Users/ian/Development/roly/css
+savedir: file:///C:/Users/ian/Development/roly/site/images
 files: C:\\Users\\ian\\Development\\roly\\index.html
 files: C:\\Users\\ian\\Development\\roly\\gallery.html
 files: C:\\Users\\ian\\Development\\roly\\booking.html
@@ -51,19 +51,19 @@ files: C:\\Users\\ian\\Development\\roly\\css\\main.css
 files: C:\\Users\\ian\\Development\\roly\\css\\slider.css
 files: C:\\Users\\ian\\Development\\roly\\css\\reset.css
 files: C:\\Users\\ian\\Development\\roly\\css\\global-forms.css
-files: C:\\Users\\ian\\Development\\roly\\images\\makefile
+files: C:\\Users\\ian\\Development\\roly\\site\\images\\makefile
 snr_replacetype: 0
-recent_files: file:///C:/Users/ian/Development/roly/gallery.html
 recent_files: file:///C:/Users/ian/Development/roly/css/main.css
-recent_files: file:///C:/Users/ian/Development/roly/css/global-forms.css
+recent_files: file:///C:/Users/ian/Development/roly/contact.html
+recent_files: file:///C:/Users/ian/Development/roly/gallery.html
 recent_files: file:///C:/Users/ian/Development/roly/images/makefile
+recent_files: file:///C:/Users/ian/Development/roly/css/global-forms.css
 recent_files: file:///C:/Users/ian/Development/roly/css/reset.css
 recent_files: file:///C:/Users/ian/Development/roly/css/slider.css
-recent_files: file:///C:/Users/ian/Development/roly/contact.html
 recent_files: file:///C:/Users/ian/Development/roly/booking.html
 recent_files: file:///C:/Users/ian/Development/roly/index.html
-recent_files: file:///C:/Users/ian/Development/roly/css/slider_style.css
 recent_files: file:///C:/Users/ian/Development/roly/css/reset.css
+recent_files: file:///C:/Users/ian/Development/roly/css/slider_style.css
 recent_files: file:///C:/Users/ian/Development/roly/css/slider_style.css
 recent_files: file:///C:/Users/ian/Development/roly/images/thumbs/notes.txt
 recent_files: file:///C:/Users/ian/Development/roly/makefile
@@ -71,7 +71,7 @@ charmap_block: 1
 e2c.convert_iso: 0
 enable_syntax_scan: 1
 outputb_scroll_mode: 0
-leftpanel_active_tab: 1
+leftpanel_active_tab: 0
 c2e.IE_apos_workaround: 0
 display_right_margin: 0
 replacelist: \\n
@@ -85,7 +85,7 @@ snr_casesens: 0
 c2e.convert_iso: 0
 bookmarks_filename_mode: 0
 wrap_text_default: 0
-opendir: file:///C:/Users/ian/Development/roly
+opendir: file:///C:/Users/ian/Development/roly/images
 e2c.convert_xml: 1
 default_mime_type: text/x-html5
 view_left_panel: 1

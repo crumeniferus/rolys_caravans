@@ -23,7 +23,7 @@ large_height=1200
 slideshow_width=760
 slideshow_height=280
 
-image_size=thumbs article medium large
+image_size=thumbs article medium large slideshow
 
 .PHONY : all $(image_size) 
 
