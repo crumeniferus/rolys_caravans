@@ -37,4 +37,3 @@ $(image_size):$$(patsubst originals/%,$$@/%,$$(wildcard originals/*))
 #There is the potential for programmatically generated images but that's not today's requirement.
 %.jpg:: originals/$$(@F)
 	$(CONVERT) $(subst /,\\,$^) $(CONVERTFLAGS) $($(@D)_width)x$($(@D)_height) $(subst /,\\,$@)
-	
