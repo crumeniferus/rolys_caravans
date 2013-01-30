@@ -1,0 +1,7 @@
+			<nav><ul>
+				crum4_navitems_add(crum4_pagelist)
+			 	<li class="active"><a href="./index.html">home</a></li>
+			 	<li><a href="./gallery.html">photographs</a></li>
+			  <li><a href="./booking.html#">booking</a></li>
+			 	<li><a href="./contact.html#">contact</a></li>
+			</ul></nav>
