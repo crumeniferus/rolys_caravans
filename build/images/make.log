@@ -1,0 +1,127 @@
+GNU Make 3.81
+Copyright (C) 2006  Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.
+There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE.
+
+This program built for i386-pc-mingw32
+find_and_set_shell path search set default_shell = C:/Program Files (x86)/Git/bin/sh.exe
+Reading makefiles...
+Reading makefile `makefile'...
+Updating makefiles....
+ Considering target file `makefile'.
+  Looking for an implicit rule for `makefile'.
+  No implicit rule found for `makefile'.
+  Finished prerequisites of target file `makefile'.
+ No need to remake target `makefile'.
+Updating goal targets....
+Considering target file `thumbs'.
+ File `thumbs' does not exist.
+  Considering target file `thumbs/1.jpg'.
+   Looking for an implicit rule for `thumbs/1.jpg'.
+   Trying pattern rule with stem `1'.
+   Trying rule prerequisite `originals/1.jpg'.
+   Found an implicit rule for `thumbs/1.jpg'.
+    Considering target file `originals/1.jpg'.
+     Finished prerequisites of target file `originals/1.jpg'.
+    No need to remake target `originals/1.jpg'.
+   Finished prerequisites of target file `thumbs/1.jpg'.
+   Prerequisite `originals/1.jpg' is older than target `thumbs/1.jpg'.
+  No need to remake target `thumbs/1.jpg'.
+  Considering target file `thumbs/2.jpg'.
+   Looking for an implicit rule for `thumbs/2.jpg'.
+   Trying pattern rule with stem `2'.
+   Trying rule prerequisite `originals/2.jpg'.
+   Found an implicit rule for `thumbs/2.jpg'.
+    Considering target file `originals/2.jpg'.
+     Finished prerequisites of target file `originals/2.jpg'.
+    No need to remake target `originals/2.jpg'.
+   Finished prerequisites of target file `thumbs/2.jpg'.
+   Prerequisite `originals/2.jpg' is older than target `thumbs/2.jpg'.
+  No need to remake target `thumbs/2.jpg'.
+  Considering target file `thumbs/3.jpg'.
+   Looking for an implicit rule for `thumbs/3.jpg'.
+   Trying pattern rule with stem `3'.
+   Trying rule prerequisite `originals/3.jpg'.
+   Found an implicit rule for `thumbs/3.jpg'.
+    Considering target file `originals/3.jpg'.
+     Finished prerequisites of target file `originals/3.jpg'.
+    No need to remake target `originals/3.jpg'.
+   Finished prerequisites of target file `thumbs/3.jpg'.
+   Prerequisite `originals/3.jpg' is older than target `thumbs/3.jpg'.
+  No need to remake target `thumbs/3.jpg'.
+  Considering target file `thumbs/4.jpg'.
+   File `thumbs/4.jpg' does not exist.
+   Looking for an implicit rule for `thumbs/4.jpg'.
+   Trying pattern rule with stem `4'.
+   Trying rule prerequisite `originals/4.jpg'.
+   Found an implicit rule for `thumbs/4.jpg'.
+    Considering target file `originals/4.jpg'.
+     Finished prerequisites of target file `originals/4.jpg'.
+    No need to remake target `originals/4.jpg'.
+   Finished prerequisites of target file `thumbs/4.jpg'.
+  Must remake target `thumbs/4.jpg'.
+C:\Program Files\ImageMagick-6.8.0-Q16\convert originals\\4.jpg -resize 83x55 thumbs\\4.jpg
+CreateProcess(NULL,C:\Program Files\ImageMagick-6.8.0-Q16\convert originals\4.jpg -resize 83x55 thumbs\4.jpg,...)
+Putting child 0x0037f068 (thumbs/4.jpg) PID 32283664 on the chain.
+Live child 0x0037f068 (thumbs/4.jpg) PID 32283664 
+Main thread handle = 0x00000098
+Reaping winning child 0x0037f068 PID 32283664 
+Removing child 0x0037f068 PID 32283664 from chain.
+  Successfully remade target file `thumbs/4.jpg'.
+  Considering target file `thumbs/5.jpg'.
+   Looking for an implicit rule for `thumbs/5.jpg'.
+   Trying pattern rule with stem `5'.
+   Trying rule prerequisite `originals/5.jpg'.
+   Found an implicit rule for `thumbs/5.jpg'.
+    Considering target file `originals/5.jpg'.
+     Finished prerequisites of target file `originals/5.jpg'.
+    No need to remake target `originals/5.jpg'.
+   Finished prerequisites of target file `thumbs/5.jpg'.
+   Prerequisite `originals/5.jpg' is older than target `thumbs/5.jpg'.
+  No need to remake target `thumbs/5.jpg'.
+  Considering target file `thumbs/countryside1.jpg'.
+   File `thumbs/countryside1.jpg' does not exist.
+   Looking for an implicit rule for `thumbs/countryside1.jpg'.
+   Trying pattern rule with stem `countryside1'.
+   Trying rule prerequisite `originals/countryside1.jpg'.
+   Found an implicit rule for `thumbs/countryside1.jpg'.
+    Considering target file `originals/countryside1.jpg'.
+     Finished prerequisites of target file `originals/countryside1.jpg'.
+    No need to remake target `originals/countryside1.jpg'.
+   Finished prerequisites of target file `thumbs/countryside1.jpg'.
+  Must remake target `thumbs/countryside1.jpg'.
+C:\Program Files\ImageMagick-6.8.0-Q16\convert originals\\countryside1.jpg -resize 83x55 thumbs\\countryside1.jpg
+CreateProcess(NULL,C:\Program Files\ImageMagick-6.8.0-Q16\convert originals\countryside1.jpg -resize 83x55 thumbs\countryside1.jpg,...)
+Putting child 0x0037f068 (thumbs/countryside1.jpg) PID 32283824 on the chain.
+Live child 0x0037f068 (thumbs/countryside1.jpg) PID 32283824 
+Reaping winning child 0x0037f068 PID 32283824 
+Removing child 0x0037f068 PID 32283824 from chain.
+  Successfully remade target file `thumbs/countryside1.jpg'.
+  Considering target file `thumbs/inside_a.jpg'.
+   File `thumbs/inside_a.jpg' does not exist.
+   Looking for an implicit rule for `thumbs/inside_a.jpg'.
+   Trying pattern rule with stem `inside_a'.
+   Trying rule prerequisite `originals/inside_a.jpg'.
+   Found an implicit rule for `thumbs/inside_a.jpg'.
+    Considering target file `originals/inside_a.jpg'.
+     Finished prerequisites of target file `originals/inside_a.jpg'.
+    No need to remake target `originals/inside_a.jpg'.
+   Finished prerequisites of target file `thumbs/inside_a.jpg'.
+  Must remake target `thumbs/inside_a.jpg'.
+C:\Program Files\ImageMagick-6.8.0-Q16\convert originals\\inside_a.jpg -resize 83x55 thumbs\\inside_a.jpg
+CreateProcess(NULL,C:\Program Files\ImageMagick-6.8.0-Q16\convert originals\inside_a.jpg -resize 83x55 thumbs\inside_a.jpg,...)
+Putting child 0x0037f068 (thumbs/inside_a.jpg) PID 32283824 on the chain.
+Live child 0x0037f068 (thumbs/inside_a.jpg) PID 32283824 
+Reaping winning child 0x0037f068 PID 32283824 
+Removing child 0x0037f068 PID 32283824 from chain.
+  Successfully remade target file `thumbs/inside_a.jpg'.
+ Finished prerequisites of target file `thumbs'.
+Must remake target `thumbs'.
+CreateProcess(C:\Program Files (x86)\GnuWin32\bin\echo.exe,echo We need to update thumbs/1.jpg thumbs/2.jpg thumbs/3.jpg thumbs/4.jpg thumbs/5.jpg thumbs/countryside1.jpg thumbs/inside_a.jpg,...)
+Putting child 0x0037f068 (thumbs) PID 32283824 on the chain.
+Live child 0x0037f068 (thumbs) PID 32283824 
+We need to update thumbs/1.jpg thumbs/2.jpg thumbs/3.jpg thumbs/4.jpg thumbs/5.jpg thumbs/countryside1.jpg thumbs/inside_a.jpg
+Reaping winning child 0x0037f068 PID 32283824 
+Removing child 0x0037f068 PID 32283824 from chain.
+Successfully remade target file `thumbs'.
